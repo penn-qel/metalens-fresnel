@@ -9,7 +9,8 @@ clc
 close all
 
 tstart = tic;
-
+% replace this with the .mat file that contains outputs from
+% Fresnel_cuts_fixed_grid_3D.m
 load('Metalens_fresnel_sq.mat');
 
 % options for the write, all units are in microns
@@ -53,7 +54,8 @@ toc(tstart)
 
 %% hex pattern
 tstart = tic;
-
+% replace this with the .mat file that contains outputs from
+% Fresnel_cuts_fixed_grid_3D.m
 load('Metalens_fresnel_hex.mat');
 
 file_name = ['Metalens-hex-' date '.txt']; % dated file name
