@@ -1,4 +1,4 @@
-This is a simple suite in MATLAB for calculating the necessary parameters for a Metalens based on Fresnel phase profile and mapping those parameters to a GDS file
+This is a simple suite in MATLAB for calculating the necessary parameters for a Metalens based on Fresnel phase profile and converting those parameters to a GDS file
 
 ## Required Software
 
