@@ -67,13 +67,6 @@ S:SetExcitationPlanewave(
 -- backward should be zero
 forward, backward = S:GetAmplitudes('Substrate', -- layer in which to get
 		                                 0)          -- z-offset
---Ur,Ui = S:GetLayerElectricEnergyDensityIntegral('Slab')
---print('Ur\tUi')
---print(Ur .. '\t' .. Ui)
---print(forward[1][1])
---print(forward[1][2])
---print(backward[1][1])
---print(backward[1][2])
 print('m\treal(U2+)\timag(U2+)\treal(U2-)\timag(U2-)') 
 for key,value in pairs(forward) do 
 	print(key .. '\t' .. forward[key][1] .. '\t' .. forward[key][2] .. '\t' .. backward[key][1] .. '\t' .. backward[key][2]);
