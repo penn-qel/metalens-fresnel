@@ -4,7 +4,7 @@ This is a simple suite in MATLAB for calculating the necessary parameters for a 
 
 -	**MATLAB**
 -	**KLayout**
--	**S4** (if you choose to use the functions included in this suite to calculate pillar radii required for phase profile)
+-	**S4** (if you choose to use the functions included in this suite to calculate pillar radii required for the phase profile)
 
 ## Scripts
 
